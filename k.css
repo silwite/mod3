@@ -1,31 +1,26 @@
 *{
     box-sizing: border-box;
-  
+    
 }
-.row{width:100%;}
-h1 {
-  text-align: center;
-  margin-top: 25px;
-  margin-bottom: 15px;
-  font-size: 1.75em;
-}
-
+h1{text-align: center;}
 #sushi{
     background-color:#9bd196;
     border:1px solid  rgb(0, 0, 0) ;
     padding: 3px;
     right: 25px;
     border-radius: 5px;
+  }
+   .row{width:100%;} 
+
     
-.row{width:100%;} 
-    
-}
+
 #beef{
  background-color: #FF6363;
  right:26px;
  border:1px solid black;
  padding: 3px;
  border-radius: 5px;
+ 
 }
 #chicken{
     background-color:#FFAB76;
@@ -33,7 +28,9 @@ h1 {
     width:25%;
     padding: 3px;
     border-radius: 5px;
-    border: 1px solid black;}
+    border: 1px solid black;
+  
+}
 
 .title{
     position: relative;
@@ -56,27 +53,18 @@ p{
     padding: 15px;
     width:90%;
     height:100%;
-    text-align: justify;
+    text-align:justify;
  
     clear:left;
       
    
 
-}@media(max-width:767px){.col-sm-12{float:left}
-.col-sm-12{
-    width:100%;}
-.title{
-    top: -13px;
-    margin-right: 2%;
-}
-    
-}
 }
 
 @media(min-width:992px){.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-8,
     .col-lg-7,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
        float: left;
-        border: 2px black;
+        border: 1px black;
     }
     .col-lg-1{
         width: 8.33%;
@@ -120,7 +108,7 @@ p{
 @media(min-width:768px) and (max-width:991px){.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-8,
     .col-md-7,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
         float: left;
-        border: 2px black;
+        border: 1px black;
         
     }
     .col-md-1{
@@ -140,6 +128,7 @@ p{
     }
     .col-md-6{
         width: 50%;
+
     }
     .col-md-7{
         width: 58.33%;
@@ -158,12 +147,28 @@ p{
     }
     .col-md-12{
         width: 100%;
+        padding-right:- 20px;
+        padding-left: -20px;
     }
     .title{
         width:20%;
+    }
+    .box3{
+       
+       margin-right:100px;
     }
     #sushi{
         width:10%;
         right:48px;
     }
+}
+@media(max-width:767px){.col-sm-12{float:left}
+.col-sm-12{
+    width:100%;
+}
+.title{
+    top:7px;
+    margin-right: 2%;
+}
+    
 }
